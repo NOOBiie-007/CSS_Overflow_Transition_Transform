@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .top{
+            height: 200px;
+            width: 500px;
+            border: 4px solid cyan;
+        }
+        .scroll{
+            overflow: scroll;
+        }
+
+        
+        .adj .logo {
+            height: 100px;
+            width: 100px;
+        }
+
+       
+        
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 2px solid red;
+        }
+        .outer{
+            background-color: cyan;
+        }
+        .inner{
+            background-color: darkcyan;
+            transform: scale(.5);  
+        }
+
+
+        .pointer{
+            background-color: navy;
+            transition: background-color 5s ease-in 2s;
+        }
+        .pointer:hover{
+            background-color: blueviolet;
+        }
+
+
+        
+
+    </style>
+</head>
+<body>
+    <section>
+    <h1>Topic: <span>CSS Overflow</span></h1>
+    <div class="top scroll">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, velit soluta? Culpa, consectetur. Quia, culpa. Culpa eos, natus veniam laborum voluptatibus similique. Quae nesciunt maiores, fugit reprehenderit id suscipit veritatis nihil sed corrupti asperiores placeat odio nam itaque omnis, cupiditate ex quod, provident repellendus? Quas qui esse doloremque a, inventore eos animi magni sequi maxime temporibus vel alias, nihil, nesciunt quis nisi? Officia impedit excepturi alias cumque reprehenderit incidunt porro, vero facere magni voluptatum quasi molestias deserunt, beatae ipsum pariatur cupiditate necessitatibus architecto, rem nulla exercitationem fugit. Facere odit ipsum inventore explicabo provident molestiae aliquid expedita quisquam libero quibusdam ea illum laborum dolorum architecto, non minima eos autem molestias sapiente. Recusandae quo id labore fugit soluta! Ab dignissimos maiores tenetur?</p>
+    </div>
+    <div class="top">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore iste nesciunt eius non eligendi quas vero earum repellat explicabo. Dolorum nesciunt maiores distinctio voluptatem numquam magni architecto, cum repudiandae ipsa fugiat reiciendis, deserunt rem! Est natus placeat ad ipsam soluta quo asperiores, modi repellendus exercitationem consectetur nesciunt aspernatur, nostrum deserunt ratione omnis nisi quasi quam sunt amet doloremque blanditiis itaque.</p>
+    </div>
+    </section>
+
+    <section>
+        <div class="adj">
+        <h1>Image Choto Boro</h1>
+        <img class="logo" src="peter.png" alt="">
+        </div>
+        <p>SVG image choto boro krer jnne vs code er extention e svg viewer install kre okhane hieght width color change kra jbe</p>
+    </section>
+
+    <section>
+        <h1>Topic: CSS Transform</h1>
+        <div class="box outer">
+            <div class="box inner">Block-1</div>
+        </div>
+        <div class="box outer">
+            <div class="box inner">Block-2</div>
+        </div>
+        <div class="box outer">
+            <div class="box inner">Block-3</div>
+        </div>
+    </section>
+
+
+    <section>
+        <br>
+        <h1>CSS Transition</h1>
+        <div class="box pointer">
+            <h1>Point here</h1>
+        </div>
+    </section>
+    
+</body>
+</html>
